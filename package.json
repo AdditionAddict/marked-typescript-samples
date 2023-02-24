@@ -12,6 +12,7 @@
     "prettier": "npx prettier --ignore-path .gitignore --write ."
   },
   "devDependencies": {
+    "@octokit/rest": "^19.0.7",
     "@types/marked": "^4.0.8",
     "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.53.0",
