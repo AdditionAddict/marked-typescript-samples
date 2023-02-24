@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { markedRender } from "./marked-basic";
+import { markedRender } from './marked-basic';
 
 describe('Marked basic tests', () => {
   it('generates HTML from markdown', () => {
