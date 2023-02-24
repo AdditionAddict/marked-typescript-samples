@@ -6,13 +6,24 @@
   "scripts": {
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "coverage:serve": "npm run coverage && serve coverage"
+    "coverage:serve": "npm run coverage && serve coverage",
+    "lint": "eslint --ignore-path .gitignore --ext .ts .",
+    "prettier": "npx prettier --ignore-path .gitignore --write ."
   },
   "devDependencies": {
-    "@vitest/coverage-c8": "^0.28.5",
     "@types/marked": "^4.0.8",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
+    "@typescript-eslint/parser": "^5.53.0",
+    "@vitest/coverage-c8": "^0.28.5",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-standard-with-typescript": "^34.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^2.8.4",
     "serve": "^14.2.0",
-    "typescript": "^4.9.3",
+    "typescript": "^4.9.5",
     "vite": "^4.1.0",
     "vitest": "^0.28.5"
   },
