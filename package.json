@@ -8,6 +8,7 @@
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage",
     "coverage:serve": "npm run coverage && serve coverage",
+    "bench": "vitest bench",
     "lint": "eslint --ignore-path .gitignore --ext .ts .",
     "prettier": "npx prettier --ignore-path .gitignore --write ."
   },
@@ -27,6 +28,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "prettier": "^2.8.4",
     "prismjs": "^1.29.0",
+    "rxjs": "^7.8.0",
     "serve": "^14.2.0",
     "typescript": "^4.9.5",
     "vite": "^4.1.0",
